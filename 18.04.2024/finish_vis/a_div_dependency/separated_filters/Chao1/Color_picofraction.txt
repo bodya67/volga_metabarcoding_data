@@ -1,0 +1,21 @@
+
+Call:
+lm(formula = separated_df[, k] ~ separated_df[, i], data = separated_df)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-99.56 -42.98 -22.55  42.86 159.59 
+
+Coefficients:
+                  Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)        41.7266    29.5875   1.410     0.163    
+separated_df[, i]   3.8941     0.8755   4.448 0.0000347 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 63.54 on 65 degrees of freedom
+  (2 пропущенных наблюдений удалены)
+Multiple R-squared:  0.2333,	Adjusted R-squared:  0.2216 
+F-statistic: 19.78 on 1 and 65 DF,  p-value: 0.00003468
+
+[1] FALSE

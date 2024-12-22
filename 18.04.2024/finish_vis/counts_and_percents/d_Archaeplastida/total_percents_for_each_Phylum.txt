@@ -1,0 +1,4 @@
+	total_percents
+p:Chlorophyta-Chlorophyta_X	99.802738099914
+p:Rhodophyta-Rhodophyta_X	0.168021751179425
+Unclassified	0.0292401489065494

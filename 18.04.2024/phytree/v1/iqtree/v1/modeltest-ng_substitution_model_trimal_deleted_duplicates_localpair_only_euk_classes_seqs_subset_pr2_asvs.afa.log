@@ -1,0 +1,205 @@
+Physical cores: 40
+Logical cores:  80
+Memory:         755GB
+Extensions:     AVX
+
+Creating new checkpoint file: /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.ckp
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            1169
+  #sites:           2084
+  #patterns:        2084
+  Max. thread mem:  1206 MB
+
+Output:
+  Log:           /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.log
+  Starting tree: /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.tree
+  Results:       /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.out
+
+Selection options:
+  # dna schemes:      11
+  # dna models:       88
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: true
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          40/40
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+modeltest-ng was called as follows: 
+>> modeltest-ng -i /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -d nt -p 40 -o /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa 
+
+
+Partition 1/1
+
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:02:51
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10   -388623.9865    795168.5672         0.0000    0.9971
+       2  TIM2+I+G4          8   -388637.4595    795180.2290        11.6618    0.0029
+       3  TVM+I+G4           9   -388642.8979    795198.7478        30.1806    0.0000
+       4  GTR+G4             9   -388643.5119    795199.9759        31.4088    0.0000
+       5  TPM2uf+I+G4        7   -388651.6297    795200.9274        32.3602    0.0000
+       6  TIM2+G4            7   -388659.7418    795217.1516        48.5845    0.0000
+       7  TVM+G4             8   -388665.0185    795235.3470        66.7798    0.0000
+       8  TPM2uf+G4          6   -388673.2734    795236.5727        68.0055    0.0000
+       9  TIM3+I+G4          8   -388676.9615    795259.2330        90.6658    0.0000
+      10  TrN+I+G4           7   -388681.1440    795259.9561        91.3889    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -388623.9865
+Frequencies:        0.2391 0.2194 0.2534 0.2882
+Subst. Rates:       1.0597 3.0660 1.2067 0.9119 3.6970 1.0000 
+Inv. sites prop:    0.0024
+Gamma shape:        0.7553
+Score:              795168.5672
+Weight:             0.9971
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.7398
+Alpha-P.Inv:        0.7553
+P.Inv-Alpha:        0.0024
+Frequencies:        0.2390 0.2193 0.2534 0.2882 
+
+Commands:
+  > phyml  -i /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa --model GTR+I+G4
+  > paup -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa
+  > iqtree -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m GTR+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10   -388623.9865    781937.9731         0.0000    1.0000
+       2  TIM2+I+G4          8   -388637.4595    781960.9190        22.9459    0.0000
+       3  TVM+I+G4           9   -388642.8979    781973.7957        35.8227    0.0000
+       4  GTR+G4             9   -388643.5119    781975.0239        37.0508    0.0000
+       5  TPM2uf+I+G4        7   -388651.6297    781987.2594        49.2863    0.0000
+       6  TIM2+G4            7   -388659.7418    782003.4837        65.5106    0.0000
+       7  TVM+G4             8   -388665.0185    782016.0370        78.0639    0.0000
+       8  TPM2uf+G4          6   -388673.2734    782028.5467        90.5736    0.0000
+       9  TIM3+I+G4          8   -388676.9615    782039.9230       101.9499    0.0000
+      10  TIM1+I+G4          8   -388679.2878    782044.5757       106.6026    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -388623.9865
+Frequencies:        0.2391 0.2194 0.2534 0.2882
+Subst. Rates:       1.0597 3.0660 1.2067 0.9119 3.6970 1.0000 
+Inv. sites prop:    0.0024
+Gamma shape:        0.7553
+Score:              781937.9731
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.7398
+Alpha-P.Inv:        0.7553
+P.Inv-Alpha:        0.0024
+Frequencies:        0.2391 0.2194 0.2534 0.2882 
+
+Commands:
+  > phyml  -i /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa --model GTR+I+G4
+  > paup -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa
+  > iqtree -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m GTR+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  K80+G4             2   -389480.0498  11711446.0995         0.0000    1.0000
+       2  TPM3+G4            3   -389169.9676  11720179.9353      8733.8358    0.0000
+       3  TrNef+G4           3   -389345.9493  11720531.8986      9085.7991    0.0000
+       4  TPM2+G4            3   -389434.1834  11720708.3667      9262.2672    0.0000
+       5  K80+I+G4           3   -389458.5905  11720757.1811      9311.0816    0.0000
+       6  TPM1+G4            3   -389484.5311  11720809.0623      9362.9628    0.0000
+       7  JC+G4              1   -399778.0140  11722692.0280     11245.9285    0.0000
+       8  TIM3ef+G4          4   -389020.5129  11729239.0258     17792.9263    0.0000
+       9  TPM3+I+G4          4   -389148.0789  11729494.1577     18048.0582    0.0000
+      10  TIM2ef+G4          4   -389304.8312  11729807.6623     18361.5628    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              K80+G4
+lnL:                -389480.0498
+Frequencies:        0.2500 0.2500 0.2500 0.2500
+Subst. Rates:       1.0000 3.1497 1.0000 1.0000 3.1497 1.0000 
+Inv. sites prop:    -
+Gamma shape:        0.7578
+Score:              11711446.0995
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              1.0000
+Gamma-Inv:          -
+Frequencies:        -
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.7578
+Alpha-P.Inv:        -
+P.Inv-Alpha:        -
+Frequencies:        -
+
+Commands:
+  > phyml  -i /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m 010010 -f 0.25,0.25,0.25,0.25 -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m GTRGAMMA -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa --model K80+G4
+  > paup -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa
+  > iqtree -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m K80+G4
+Summary:
+
+Partition 1/1:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC            GTR+I+G4   795168.5672        0.9971
+       AIC            GTR+I+G4   781937.9731        1.0000
+      AICc              K80+G4 11711446.0995        1.0000
+
+Execution results written to /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.out
+Starting tree written to /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.tree

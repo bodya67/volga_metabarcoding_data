@@ -1,0 +1,8 @@
+	total_percents
+s:Angulamoeba_microcystivorans	4.71236230110159
+s:Copromyxa_microcystidis	0.244798041615667
+s:Echinamoeba_exundans	13.3414932680539
+s:Flamella_piscinae	5.87515299877601
+s:Protostelium_sp.	0.305997552019584
+s:Vermamoeba_vermiformis	5.75275397796818
+Unclassified	69.7674418604651

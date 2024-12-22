@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = formula_string, data = na.omit(alpha_div_with_mapping))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.98433 -0.23365 -0.01308  0.22445  0.84913 
+
+Coefficients:
+                                    Estimate Std. Error t value   Pr(>|t|)    
+(Intercept)                        4.6174650  0.1281406  36.034    < 2e-16 ***
+Fraction_sizepicofraction          0.1073375  0.0653430   1.643      0.103    
+Riverine_vs_Lenticreach           -0.1310136  0.0843400  -1.553      0.123    
+distance_from_source_of_the_river -0.0002861  0.0000589  -4.858 0.00000359 ***
+Transparancy                      -0.0026456  0.0005617  -4.710 0.00000667 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3667 on 121 degrees of freedom
+Multiple R-squared:  0.4304,	Adjusted R-squared:  0.4116 
+F-statistic: 22.86 on 4 and 121 DF,  p-value: 4.402e-14
+
+[1] FALSE

@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  alpha_div_with_mapping[, boxplot_cycle] by Fraction_size
+Kruskal-Wallis chi-squared = 1.0663, df = 1, p-value = 0.3018
+

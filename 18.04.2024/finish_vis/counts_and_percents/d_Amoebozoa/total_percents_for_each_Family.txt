@@ -1,0 +1,8 @@
+	total_percents
+f:Echinamoebidae	52.3867809057528
+f:Flamella-lineage	15.2386780905753
+f:Hartmannellidae	0.244798041615667
+f:Mariager-Fjord-lineage	13.0966952264382
+f:Nolandellidae	6.54834761321909
+f:Vermamoebidae	7.16034271725826
+Unclassified	5.32435740514076

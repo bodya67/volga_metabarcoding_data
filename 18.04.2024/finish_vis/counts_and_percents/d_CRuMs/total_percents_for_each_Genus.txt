@@ -1,0 +1,2 @@
+	total_percents
+g:Micronuclearia	100

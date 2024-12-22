@@ -1,0 +1,25 @@
+
+Call:
+lm(formula = formula_string, data = separated_df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-127.683  -30.886   -2.767   30.433  115.955 
+
+Coefficients:
+                                   Estimate Std. Error t value Pr(>|t|)   
+(Intercept)                       -37.74993  137.94807  -0.274  0.78526   
+Riverine_vs_Lenticreach           -24.02443   18.06236  -1.330  0.18836   
+distance_from_source_of_the_river  -0.04950    0.01797  -2.754  0.00771 **
+T                                  19.92514    8.33970   2.389  0.01994 * 
+TDS                                -0.39111    0.19889  -1.967  0.05372 . 
+ntu                                 1.77533    1.34068   1.324  0.19030   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 53.24 on 62 degrees of freedom
+  (1 пропущенное наблюдение удалено)
+Multiple R-squared:  0.492,	Adjusted R-squared:  0.451 
+F-statistic: 12.01 on 5 and 62 DF,  p-value: 0.00000003802
+
+[1] FALSE

@@ -1,0 +1,5 @@
+	total_percents
+f:Basal_Cryptophyceae-1	6.57781586201849
+f:Basal_Cryptophyceae-2	2.48530165158205
+f:Pyrenomonadaceae	0.0202788416969579
+Unclassified	90.9166036447025

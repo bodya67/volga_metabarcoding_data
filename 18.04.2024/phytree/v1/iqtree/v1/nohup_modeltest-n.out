@@ -1,0 +1,308 @@
+nohup: ignoring input
+                             _      _ _            _      _   _  _____ 
+                            | |    | | |          | |    | \ | |/ ____|
+         _ __ ___   ___   __| | ___| | |_ ___  ___| |_   |  \| | |  __ 
+        | '_ ` _ \ / _ \ / _` |/ _ \ | __/ _ \/ __| __|  | . ` | | |_ |
+        | | | | | | (_) | (_| |  __/ | ||  __/\__ \ |_   | |\  | |__| |
+        |_| |_| |_|\___/ \__,_|\___|_|\__\___||___/\__|  |_| \_|\_____|
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7 released on 17.03.2021 by The Exelixis Lab.
+Written by Diego Darriba.
+Contributors: Tomas Flouri, Alexey Kozlov, Benoit Morel, David Posada, 
+              Alexandros Stamatakis.
+Latest version: https://github.com/ddarriba/modeltest
+--------------------------------------------------------------------------------
+
+Physical cores: 40
+Logical cores:  80
+Memory:         755GB
+Extensions:     AVX
+
+Creating new checkpoint file: /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.ckp
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            1169
+  #sites:           2084
+  #patterns:        2084
+  Max. thread mem:  1206 MB
+
+Output:
+  Log:           /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.log
+  Starting tree: /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.tree
+  Results:       /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.out
+
+Selection options:
+  # dna schemes:      11
+  # dna models:       88
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: true
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          40/40
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+modeltest-ng was called as follows: 
+>> modeltest-ng -i /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -d nt -p 40 -o /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa 
+
+
+Partition 1/1
+
+   39/88   F81+G4         0h:00:14   0h:00:23         -399319.5206  0.7754       -
+   17/88   F81+I+G4       0h:00:18   0h:00:27         -399300.9303  0.7813  0.0024
+   23/88   JC+I+G4        0h:00:22   0h:00:31         -399756.7229  0.7886  0.0024
+   35/88   HKY+G4         0h:00:22   0h:00:31         -388730.0703  0.7466       -
+   22/88   K80+I+G4       0h:00:28   0h:00:37         -389458.5905  0.7633  0.0024
+   21/88   TrNef+I+G4     0h:00:28   0h:00:37         -389323.3879  0.7206  0.0024
+   13/88   HKY+I+G4       0h:00:28   0h:00:37         -388712.9796  0.7538  0.0024
+   37/88   TIM1ef+G4      0h:00:29   0h:00:38         -389346.1731  0.7164       -
+   12/88   TVMef+I+G4     0h:00:30   0h:00:39         -389098.5862  0.7305  0.0024
+   41/88   TPM2+G4        0h:00:30   0h:00:39         -389434.1834  0.7488       -
+   45/88   JC+G4          0h:00:08   0h:00:39         -399778.0140  0.7841       -
+   38/88   TIM3ef+G4      0h:00:31   0h:00:40         -389020.5129  0.7151       -
+   15/88   TIM1ef+I+G4    0h:00:33   0h:00:42         -389321.4753  0.7204  0.0023
+   14/88   TIM2ef+I+G4    0h:00:35   0h:00:44         -389280.3735  0.7199  0.0024
+   36/88   TIM2ef+G4      0h:00:35   0h:00:44         -389304.8312  0.7168       -
+   20/88   TPM1+I+G4      0h:00:35   0h:00:44         -389460.6511  0.7285  0.0024
+   18/88   TPM3+I+G4      0h:00:36   0h:00:45         -389148.0789  0.7312  0.0024
+   43/88   TrNef+G4       0h:00:18   0h:00:45         -389345.9493  0.7184       -
+   19/88   TPM2+I+G4      0h:00:37   0h:00:46         -389421.2414  0.7226  0.0024
+   42/88   TPM1+G4        0h:00:24   0h:00:47         -389484.5311  0.7248       -
+   33/88   SYM+G4         0h:00:38   0h:00:47         -388966.1062  0.7305       -
+   31/88   TPM1uf+G4      0h:00:38   0h:00:47         -388728.0487  0.7171       -
+   40/88   TPM3+G4        0h:00:38   0h:00:47         -389169.9676  0.7353       -
+   16/88   TIM3ef+I+G4    0h:00:41   0h:00:50         -388989.0969  0.7265  0.0023
+   61/88   F81+I          0h:00:04   0h:00:51         -446551.6422       -  0.0024
+   11/88   SYM+I+G4       0h:00:43   0h:00:52         -388943.5610  0.7305  0.0024
+    9/88   TPM1uf+I+G4    0h:00:43   0h:00:52         -388706.6885  0.7225  0.0024
+   67/88   JC+I           0h:00:03   0h:00:55         -446648.0601       -  0.0024
+   66/88   K80+I          0h:00:05   0h:00:56         -437657.1591       -  0.0024
+   34/88   TVMef+G4       0h:00:47   0h:00:56         -389122.9653  0.7305       -
+   44/88   K80+G4         0h:00:26   0h:00:57         -389480.0498  0.7578       -
+   60/88   TIM3ef+I       0h:00:11   0h:00:57         -436485.9992       -  0.0024
+   58/88   TIM2ef+I       0h:00:12   0h:00:57         -436910.7797       -  0.0024
+   57/88   HKY+I          0h:00:13   0h:00:57         -437321.8053       -  0.0024
+   62/88   TPM3+I         0h:00:11   0h:00:58         -437244.8143       -  0.0024
+   59/88   TIM1ef+I       0h:00:14   0h:00:59         -436906.5280       -  0.0024
+   64/88   TPM1+I         0h:00:12   0h:00:59         -437652.5588       -  0.0024
+   63/88   TPM2+I         0h:00:13   0h:01:00         -437656.8917       -  0.0024
+   56/88   TVMef+I        0h:00:17   0h:01:01         -437240.3472       -  0.0025
+   53/88   TPM1uf+I       0h:00:23   0h:01:03         -437318.7085       -  0.0024
+   65/88   TrNef+I        0h:00:13   0h:01:03         -436911.1786       -  0.0024
+   55/88   SYM+I          0h:00:20   0h:01:04         -436481.5055       -  0.0024
+   47/88   TVM+I          0h:00:28   0h:01:05         -437102.4232       -  0.0025
+   49/88   TIM2+I         0h:00:30   0h:01:08         -436208.8091       -  0.0024
+   83/88   F81            0h:00:04   0h:01:08         -446739.7751       -       -
+   52/88   TrN+I          0h:00:29   0h:01:08         -436223.8798       -  0.0024
+   48/88   TIM3+I         0h:00:34   0h:01:11         -436097.3481       -  0.0024
+   25/88   TVM+G4         0h:01:02   0h:01:11         -388665.0185  0.7359       -
+   89/88   JC             0h:00:02   0h:01:13         -446839.1590       -       -
+   79/88   HKY            0h:00:13   0h:01:13         -437508.0650       -       -
+   80/88   TIM2ef         0h:00:12   0h:01:13         -437092.9763       -       -
+   51/88   TPM3uf+I       0h:00:35   0h:01:14         -437113.3933       -  0.0024
+   78/88   TVMef          0h:00:15   0h:01:14         -437435.6084       -       -
+   24/88   GTR+G4         0h:01:05   0h:01:14         -388643.5119  0.7398       -
+   29/88   TPM3uf+G4      0h:01:06   0h:01:15         -388721.6472  0.7396       -
+   77/88   SYM            0h:00:16   0h:01:15         -436665.8886       -       -
+   32/88   TPM2uf+G4      0h:01:06   0h:01:15         -388673.2734  0.7249       -
+   88/88   K80            0h:00:04   0h:01:15         -437849.9978       -       -
+   81/88   TIM1ef         0h:00:12   0h:01:15         -437088.4571       -       -
+   54/88   TPM2uf+I       0h:00:34   0h:01:16         -437312.4875       -  0.0024
+   84/88   TPM3           0h:00:11   0h:01:16         -437439.9391       -       -
+   87/88   TrNef          0h:00:08   0h:01:16         -437093.1074       -       -
+   82/88   TIM3ef         0h:00:13   0h:01:16         -436670.1952       -       -
+   85/88   TPM2           0h:00:08   0h:01:16         -437849.9578       -       -
+   86/88   TPM1           0h:00:10   0h:01:18         -437845.3971       -       -
+   69/88   TVM            0h:00:24   0h:01:19         -437289.2831       -       -
+   50/88   TIM1+I         0h:00:40   0h:01:19         -436221.1256       -  0.0024
+   74/88   TrN            0h:00:24   0h:01:21         -436390.7208       -       -
+   76/88   TPM2uf         0h:00:23   0h:01:21         -437494.7410       -       -
+   10/88   TPM2uf+I+G4    0h:01:13   0h:01:22         -388651.6297  0.7269  0.0024
+   71/88   TIM2           0h:00:28   0h:01:24         -436370.7431       -       -
+   70/88   TIM3           0h:00:28   0h:01:24         -436268.2660       -       -
+   75/88   TPM1uf         0h:00:27   0h:01:24         -437505.0185       -       -
+   73/88   TPM3uf         0h:00:28   0h:01:25         -437304.0160       -       -
+    7/88   TPM3uf+I+G4    0h:01:18   0h:01:27         -388701.7068  0.7421  0.0024
+   46/88   GTR+I          0h:00:51   0h:01:28         -436080.3967       -  0.0024
+   72/88   TIM1           0h:00:34   0h:01:31         -436388.1854       -       -
+    3/88   TVM+I+G4       0h:01:25   0h:01:34         -388642.8979  0.7398  0.0024
+   68/88   GTR            0h:00:44   0h:01:36         -436246.5766       -       -
+    2/88   GTR+I+G4       0h:01:44   0h:01:53         -388623.9865  0.7553  0.0024
+   26/88   TIM3+G4        0h:01:48   0h:01:57         -388698.8192  0.7235       -
+   30/88   TrN+G4         0h:01:52   0h:02:01         -388700.5234  0.7430       -
+    8/88   TrN+I+G4       0h:01:54   0h:02:03         -388681.1440  0.7452  0.0024
+   28/88   TIM1+G4        0h:01:55   0h:02:04         -388698.0394  0.7314       -
+    4/88   TIM3+I+G4      0h:02:02   0h:02:11         -388676.9615  0.7278  0.0024
+   27/88   TIM2+G4        0h:02:20   0h:02:29         -388659.7418  0.7514       -
+    6/88   TIM1+I+G4      0h:02:22   0h:02:31         -388679.2878  0.7324  0.0024
+    5/88   TIM2+I+G4      0h:02:42   0h:02:51         -388637.4595  0.7528  0.0024
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:02:51
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10   -388623.9865    795168.5672         0.0000    0.9971
+       2  TIM2+I+G4          8   -388637.4595    795180.2290        11.6618    0.0029
+       3  TVM+I+G4           9   -388642.8979    795198.7478        30.1806    0.0000
+       4  GTR+G4             9   -388643.5119    795199.9759        31.4088    0.0000
+       5  TPM2uf+I+G4        7   -388651.6297    795200.9274        32.3602    0.0000
+       6  TIM2+G4            7   -388659.7418    795217.1516        48.5845    0.0000
+       7  TVM+G4             8   -388665.0185    795235.3470        66.7798    0.0000
+       8  TPM2uf+G4          6   -388673.2734    795236.5727        68.0055    0.0000
+       9  TIM3+I+G4          8   -388676.9615    795259.2330        90.6658    0.0000
+      10  TrN+I+G4           7   -388681.1440    795259.9561        91.3889    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -388623.9865
+Frequencies:        0.2391 0.2194 0.2534 0.2882
+Subst. Rates:       1.0597 3.0660 1.2067 0.9119 3.6970 1.0000 
+Inv. sites prop:    0.0024
+Gamma shape:        0.7553
+Score:              795168.5672
+Weight:             0.9971
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.7398
+Alpha-P.Inv:        0.7553
+P.Inv-Alpha:        0.0024
+Frequencies:        0.2390 0.2193 0.2534 0.2882 
+
+Commands:
+  > phyml  -i /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa --model GTR+I+G4
+  > paup -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa
+  > iqtree -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m GTR+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10   -388623.9865    781937.9731         0.0000    1.0000
+       2  TIM2+I+G4          8   -388637.4595    781960.9190        22.9459    0.0000
+       3  TVM+I+G4           9   -388642.8979    781973.7957        35.8227    0.0000
+       4  GTR+G4             9   -388643.5119    781975.0239        37.0508    0.0000
+       5  TPM2uf+I+G4        7   -388651.6297    781987.2594        49.2863    0.0000
+       6  TIM2+G4            7   -388659.7418    782003.4837        65.5106    0.0000
+       7  TVM+G4             8   -388665.0185    782016.0370        78.0639    0.0000
+       8  TPM2uf+G4          6   -388673.2734    782028.5467        90.5736    0.0000
+       9  TIM3+I+G4          8   -388676.9615    782039.9230       101.9499    0.0000
+      10  TIM1+I+G4          8   -388679.2878    782044.5757       106.6026    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -388623.9865
+Frequencies:        0.2391 0.2194 0.2534 0.2882
+Subst. Rates:       1.0597 3.0660 1.2067 0.9119 3.6970 1.0000 
+Inv. sites prop:    0.0024
+Gamma shape:        0.7553
+Score:              781937.9731
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.7398
+Alpha-P.Inv:        0.7553
+P.Inv-Alpha:        0.0024
+Frequencies:        0.2391 0.2194 0.2534 0.2882 
+
+Commands:
+  > phyml  -i /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa --model GTR+I+G4
+  > paup -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa
+  > iqtree -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m GTR+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  K80+G4             2   -389480.0498  11711446.0995         0.0000    1.0000
+       2  TPM3+G4            3   -389169.9676  11720179.9353      8733.8358    0.0000
+       3  TrNef+G4           3   -389345.9493  11720531.8986      9085.7991    0.0000
+       4  TPM2+G4            3   -389434.1834  11720708.3667      9262.2672    0.0000
+       5  K80+I+G4           3   -389458.5905  11720757.1811      9311.0816    0.0000
+       6  TPM1+G4            3   -389484.5311  11720809.0623      9362.9628    0.0000
+       7  JC+G4              1   -399778.0140  11722692.0280     11245.9285    0.0000
+       8  TIM3ef+G4          4   -389020.5129  11729239.0258     17792.9263    0.0000
+       9  TPM3+I+G4          4   -389148.0789  11729494.1577     18048.0582    0.0000
+      10  TIM2ef+G4          4   -389304.8312  11729807.6623     18361.5628    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              K80+G4
+lnL:                -389480.0498
+Frequencies:        0.2500 0.2500 0.2500 0.2500
+Subst. Rates:       1.0000 3.1497 1.0000 1.0000 3.1497 1.0000 
+Inv. sites prop:    -
+Gamma shape:        0.7578
+Score:              11711446.0995
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              1.0000
+Gamma-Inv:          -
+Frequencies:        -
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.7578
+Alpha-P.Inv:        -
+P.Inv-Alpha:        -
+Frequencies:        -
+
+Commands:
+  > phyml  -i /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m 010010 -f 0.25,0.25,0.25,0.25 -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m GTRGAMMA -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa --model K80+G4
+  > paup -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa
+  > iqtree -s /home/borok_admin/works/volga/18.04.2024/phytree/v1/trimal/v1/trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa -m K80+G4
+Summary:
+
+Partition 1/1:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC            GTR+I+G4   795168.5672        0.9971
+       AIC            GTR+I+G4   781937.9731        1.0000
+      AICc              K80+G4 11711446.0995        1.0000
+
+Execution results written to /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.out
+Starting tree written to /home/borok_admin/works/volga/18.04.2024/phytree/v1/iqtree/v1/modeltest-ng_substitution_model_trimal_deleted_duplicates_localpair_only_euk_classes_seqs_subset_pr2_asvs.afa.tree
