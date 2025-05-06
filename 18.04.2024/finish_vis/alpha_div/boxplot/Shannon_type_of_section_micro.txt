@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  alpha_div_with_mapping_3[, boxplot_cycle] by Fast_Flowing_vs_Slow_Flowing
+Kruskal-Wallis chi-squared = 15.215, df = 1, p-value = 0.00009596
+

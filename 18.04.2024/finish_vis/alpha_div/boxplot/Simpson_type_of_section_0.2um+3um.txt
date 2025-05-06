@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  boxplot_fulldata[, boxplot_cycle] by Riverine_vs_Lentic
+Kruskal-Wallis chi-squared = 17.136, df = 1, p-value = 0.00003479
+
