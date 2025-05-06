@@ -1,0 +1,2 @@
+	total_percents
+s:Micronuclearia_podoventralis	100
