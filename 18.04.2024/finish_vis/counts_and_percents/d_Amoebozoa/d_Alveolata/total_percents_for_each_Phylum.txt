@@ -1,0 +1,7 @@
+	total_percents
+p:Alveolata-Alveolata_X	0.180019569508143
+p:Alveolata-Apicomplexa	0.000559839711670108
+p:Alveolata-Chrompodellids	1.72281340604614
+p:Alveolata-Ciliophora	62.1614913632284
+p:Alveolata-Dinoflagellata	0.0864641332468277
+p:Alveolata-Perkinsea	35.8486516882589
