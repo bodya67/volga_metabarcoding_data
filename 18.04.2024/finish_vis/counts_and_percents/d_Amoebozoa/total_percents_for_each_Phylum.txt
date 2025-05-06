@@ -1,4 +1,0 @@
-	total_percents
-p:Evosea-Evosea_X	33.3537331701346
-p:Tubulinea-Tubulinea_X	66.3402692778458
-Unclassified	0.305997552019584

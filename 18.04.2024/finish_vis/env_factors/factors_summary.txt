@@ -1,8 +1,0 @@
-   Max_depth     distance_from_source_of_the_river       T               DO              TDS             ntu          Transparancy       Color      
- Min.   : 2.00   Min.   :  12                      Min.   :16.28   Min.   : 81.36   Min.   :139.9   Min.   : 2.970   Min.   : 75.0   Min.   :20.00  
- 1st Qu.: 9.00   1st Qu.: 961                      1st Qu.:17.98   1st Qu.: 92.40   1st Qu.:205.4   1st Qu.: 4.510   1st Qu.:152.5   1st Qu.:26.25  
- Median :13.00   Median :1512                      Median :18.49   Median : 95.61   Median :248.3   Median : 5.595   Median :200.0   Median :30.00  
- Mean   :14.05   Mean   :1436                      Mean   :18.76   Mean   : 95.31   Mean   :238.2   Mean   : 7.764   Mean   :194.3   Mean   :32.61  
- 3rd Qu.:18.00   3rd Qu.:1957                      3rd Qu.:19.50   3rd Qu.: 98.14   3rd Qu.:281.0   3rd Qu.: 8.973   3rd Qu.:240.0   3rd Qu.:35.00  
- Max.   :35.00   Max.   :2645                      Max.   :20.90   Max.   :117.77   Max.   :450.4   Max.   :29.300   Max.   :290.0   Max.   :65.00  
-                                                                                                    NA's   :2        NA's   :12      NA's   :4      

@@ -1,9 +1,0 @@
-	total_percents
-c:Bangiophyceae	0.168021751179425
-c:Chlorodendrophyceae	3.78201687200234
-c:Chlorophyceae	73.7907889166743
-c:Mamiellophyceae	6.69686693986567
-c:Pedinophyceae	0.0872840265867145
-c:Trebouxiophyceae	4.03077634777448
-c:Ulvophyceae	0.00523704159520287
-Unclassified	11.4390081043219

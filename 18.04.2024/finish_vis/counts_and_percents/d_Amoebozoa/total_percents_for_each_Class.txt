@@ -1,5 +1,0 @@
-	total_percents
-c:Echinamoebida	52.3867809057528
-c:Elardia	13.953488372093
-c:Variosea	33.3537331701346
-Unclassified	0.305997552019584

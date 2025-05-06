@@ -1,6 +1,0 @@
-	total_percents
-o:Cryptomonadales	77.1869129808982
-o:Goniomonadales	0.00823351467395282
-o:Kathablepharidida	5.53886828816082
-o:Pyrenomonadales	0.0202788416969579
-Unclassified	17.24570637457

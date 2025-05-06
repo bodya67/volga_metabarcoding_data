@@ -1,4 +1,0 @@
-	total_percents
-g:Chrysochromulina	0.0730697410083624
-g:Pterocystis	0.0649508808963222
-Unclassified	99.8619793780953

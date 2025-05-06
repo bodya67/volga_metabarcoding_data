@@ -1,3 +1,0 @@
-	total_percents
-p:Cryptophyta-Cryptophyta_X	94.4611317118392
-p:Kathablepharidacea-Kathablepharida	5.53886828816082

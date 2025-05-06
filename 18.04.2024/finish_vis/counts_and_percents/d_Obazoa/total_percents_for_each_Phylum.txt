@@ -1,6 +1,0 @@
-	total_percents
-p:Apusomonada-Apusomonada_X	0.169242920004513
-p:Opisthokonta-Choanoflagellata	74.643649629546
-p:Opisthokonta-Ichthyosporea	9.12783481891008
-p:Opisthokonta-Pluriformea	0.199330550227538
-Unclassified	15.8599420813118

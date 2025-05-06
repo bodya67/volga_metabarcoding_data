@@ -1,9 +1,0 @@
-	total_percents
-o:Abeoformidae	1.12452517958554
-o:Apusomonadidae_Group-1	0.169242920004513
-o:Craspedida	18.87622701117
-o:Ichthyophonidae	0.0150438151115123
-o:Pseudoperkinsidae	1.00417465869344
-o:Psorospermidae	1.11324231825191
-o:Rhynosporidae	4.59212456278912
-Unclassified	73.1054195343939

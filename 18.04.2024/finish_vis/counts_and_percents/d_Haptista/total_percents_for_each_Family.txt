@@ -1,4 +1,0 @@
-	total_percents
-f:Chrysochromulinaceae	0.0730697410083624
-f:Pterocystidae	11.7804660225704
-Unclassified	88.1464642364212

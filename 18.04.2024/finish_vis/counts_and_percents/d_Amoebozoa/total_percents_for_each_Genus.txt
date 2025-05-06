@@ -1,8 +1,0 @@
-	total_percents
-g:Angulamoeba	4.71236230110159
-g:Copromyxa	0.244798041615667
-g:Echinamoeba	52.3867809057528
-g:Flamella	15.2386780905753
-g:Protostelium	0.305997552019584
-g:Vermamoeba	5.75275397796818
-Unclassified	21.358629130967

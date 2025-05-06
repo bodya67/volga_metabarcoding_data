@@ -1,6 +1,0 @@
-	total_percents
-c:Apusomonadidae	0.169242920004513
-c:Choanoflagellatea	74.643649629546
-c:Dermocystida	4.59212456278912
-c:Ichthyophonida	4.53571025612095
-Unclassified	16.0592726315394

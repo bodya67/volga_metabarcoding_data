@@ -1,5 +1,0 @@
-	total_percents
-o:Euamoebida	13.953488372093
-o:Flamellidae	15.2386780905753
-o:Protosteliida	0.305997552019584
-Unclassified	70.5018359853121
