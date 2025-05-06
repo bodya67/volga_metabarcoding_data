@@ -1,0 +1,8 @@
+	total_percents
+s:Amoebidium_appalachense	0.0150438151115123
+s:Anurofeca_sp.	0.887585091579224
+s:Codosiga_botrytis	0.0639362142239272
+s:Psorospermium_haeckeli	1.11324231825191
+s:Sphaeroeca_leprechaunica	2.82823724096431
+s:Syssomonas_multiformis	0.199330550227538
+Unclassified	94.8926247696416

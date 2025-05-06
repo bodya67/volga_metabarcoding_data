@@ -1,0 +1,8 @@
+	total_percents
+g:Amoebidium	0.0150438151115123
+g:Anurofeca	0.887585091579224
+g:Codosiga	13.881680394148
+g:Psorospermium	1.11324231825191
+g:Sphaeroeca	2.82823724096431
+g:Syssomonas	0.199330550227538
+Unclassified	81.0748805897176
