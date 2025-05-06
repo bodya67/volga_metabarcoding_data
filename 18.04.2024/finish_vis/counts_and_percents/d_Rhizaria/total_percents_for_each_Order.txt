@@ -1,0 +1,15 @@
+	total_percents
+o:Cercomonadida	0.579988581474802
+o:Cryomonadida	5.40023743282554
+o:Euglyphida	0.0217495718053051
+o:Glissomonadida	1.67562326116705
+o:Limnofilida	0.10965409118508
+o:Novel-clade-10	26.2372334544664
+o:Novel-clade-12	0.00362492863421751
+o:Pansomonadida	0.239245289858356
+o:Spongomonadida	0.811984014064723
+o:Thaumatomonadida	2.77578910165206
+o:Tremulida	0.0416866792935014
+o:Vampyrellida	7.80447134947031
+o:Ventricleftida	0.188496288979311
+Unclassified	54.1102159551234

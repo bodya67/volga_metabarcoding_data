@@ -1,0 +1,4 @@
+	total_percents
+p:Stramenopiles-Bigyra	14.4088801135218
+p:Stramenopiles-Gyrista	85.5906443427415
+p:Stramenopiles-Stramenopiles_X	0.000475543736708553

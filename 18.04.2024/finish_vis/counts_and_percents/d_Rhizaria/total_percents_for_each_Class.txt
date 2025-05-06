@@ -1,0 +1,8 @@
+	total_percents
+c:Endomyxa	7.86518890409345
+c:Filosa-Granofilosea	0.229276736114258
+c:Filosa-Imbricatea	42.7351899009488
+c:Filosa-Sarcomonadea	2.61176108095372
+c:Filosa-Thecofilosea	6.45962282617561
+c:Novel-clade-10-12	26.2825450623941
+Unclassified	13.8164154893201

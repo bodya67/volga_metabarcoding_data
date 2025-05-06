@@ -1,0 +1,12 @@
+	total_percents
+s:Cercomonas_sp.	0.0226558039638595
+s:Cyphoderia_compressa	0.00724985726843503
+s:Cyphoderia_sp.	0.00634362510988065
+s:Paracercomonas_sp.	0.50295884799768
+s:Peregrinia_sp.	1.07116641141128
+s:Sandona_sp.	0.0271869647566314
+s:Teretomonas_rotunda	0.251026307919563
+s:Tremula_longifila	0.0163121788539788
+s:Tremula_sp.	0.00634362510988065
+s:Vampyrella_sp.	0.210245860784616
+Unclassified	97.8785105168242

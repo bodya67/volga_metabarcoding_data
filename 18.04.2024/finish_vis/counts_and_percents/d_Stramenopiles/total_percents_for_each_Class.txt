@@ -1,0 +1,16 @@
+	total_percents
+c:Bacillariophyceae	0.831630886755917
+c:Bicoecea	8.09556146497906
+c:Bolidophyceae	0.072948409211092
+c:Chrysophyceae	35.3361333348551
+c:Coscinodiscophyceae	1.14273159931065
+c:Dictyochophyceae	0.433410561636175
+c:Eustigmatophyceae	0.0350000190217495
+c:Mediophyceae	42.8442080675044
+c:MOCH-3	0.697717770498788
+c:Opalozoa	6.26081862001012
+c:Peronosporomycetes	1.76017758705304
+c:Pirsoniales	0.293505594296519
+c:Sagenista	0.0502174185964232
+c:Synchromophyceae	0.287228416971966
+Unclassified	1.85871024929905
