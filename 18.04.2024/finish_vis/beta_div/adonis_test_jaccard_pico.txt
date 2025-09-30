@@ -1,0 +1,21 @@
+Permutation test for adonis under reduced model
+Marginal effects of terms
+Permutation: free
+Number of permutations: 999
+
+adonis2(formula = dist_mx ~ Fast_Flowing_vs_Slow_Flowing + Max_depth + distance_from_source_of_the_river + T + DO + TDS + ntu + Transparancy + Color + HPP, data = mapping_file_permanova, permutations = 999, by = "margin")
+                                  Df SumOfSqs      R2      F Pr(>F)    
+Fast_Flowing_vs_Slow_Flowing       1   0.3378 0.01270 1.0166  0.375    
+Max_depth                          1   0.3072 0.01155 0.9244  0.580    
+distance_from_source_of_the_river  1   0.4715 0.01772 1.4189  0.034 *  
+T                                  1   0.7784 0.02926 2.3426  0.001 ***
+DO                                 1   0.3187 0.01198 0.9590  0.526    
+TDS                                1   0.3532 0.01328 1.0630  0.329    
+ntu                                1   0.3642 0.01369 1.0962  0.269    
+Transparancy                       1   0.2698 0.01014 0.8120  0.841    
+Color                              1   0.2465 0.00926 0.7417  0.931    
+HPP                                6   3.1407 0.11806 1.5753  0.001 ***
+Residual                          53  17.6110 0.66198                  
+Total                             68  26.6034 1.00000                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
