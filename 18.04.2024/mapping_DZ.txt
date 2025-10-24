@@ -1,0 +1,141 @@
+Sample	Region	Fraction_size	River_part	Riverine_vs_Lentic	Max_depth	distance_from_source_of_the_river	T	DO	TDS	ntu	Transparancy	Color		name_of_hpp	HPP	site_after_HPP
+1	Kamenniki	3um	Upper_Volga	flowing	18	2645	16,28	93,38	0,11						HPP0	b_HPP
+2	Rybinsk_(Kopaevo)	3um	Upper_Volga	flowing	5	2623	17,5	105,62	0,1	6,07	160	50	After the hydropower plant	Rybinsk Hydroelectric Station	HPP1	HPP
+3	Nizhe_g._Tutaev_ili_vyshe_g._YAroslavl'_(Tolga)	3um	Upper_Volga	flowing	7	2549	17,5	94,55	0,1	8		50			HPP1	normal
+4	Nizhe_g._YAroslavl'_(Tunoshna)	3um	Upper_Volga	flowing	6,5	2524	17,6	87,48	0,12	6,98	150	50			HPP1	normal
+5	Krasnyj_Profintern	3um	Upper_Volga	flowing	7,5	2494	17,57	91,7	0,12	5,18	180	50			HPP1	normal
+6	Nizhe_g._Kostroma	3um	Upper_Volga	flowing	6,5	2449	18,33	100,15	0,12	6,38	170	45			HPP1	normal
+7	Volgorechensk	3um	Upper_Volga	flowing	14,5	2422	17,98	95,07	0,12	4,88	160	45			HPP1	normal
+8	Nizhe_g._Ples	3um	Upper_Volga	flowing	11,8	2400	18,13	99,7	0,12	5,68	160	45			HPP1	normal
+9	Nizhe_g._Kineshma	3um	Upper_Volga	flowing	15,5	2349	17,47	95,89	0,11	6,85		40			HPP1	normal
+10	Centr_razliva	3um	Upper_Volga	reach	11,7	2281	18,09	96,42	0,1	10,52	110	65			HPP1	normal
+11	Puchezh	3um	Upper_Volga	reach	18,9	2249	17,29	88,12	0,11	7,46	160	45			HPP1	normal
+12	Chkalovsk_razrez	3um	Upper_Volga	reach	19,5	2225	17,03	85,75	0,11	5,83	170	45			HPP1	b_HPP
+13	Gorodec	3um	Upper_Volga	flowing	5,4	2205	18,5	105,26	0,11	6,2	180	40	After the hydropower plant	Nizhny Novgorod Hydroelectric Station	HPP2	HPP
+14	Nizhe_Kstovo	3um	Middle_Volga	flowing	10	2128	19,53	116,34	0,16	10,18	100	30			HPP2	normal
+15	Makar'ev_(levyj_bereg)	3um	Middle_Volga	flowing	14	2065	19,91	117,77	0,16	11,96					HPP2	normal
+16	Razrez_LB_Volgi_–_r._Sura	3um	Middle_Volga	flowing	2	1991	20,8	91,06	0,34	11,8	90	20			HPP2	normal
+17	Vasil'sursk	3um	Middle_Volga	flowing	9,8	2024	19,9	82,15	0,19	10,39	130	35			HPP2	normal
+18	U_Vetlugi	3um	Middle_Volga	flowing	8	1957	19,3	81,36	0,18	8,85	130	35			HPP2	normal
+19	Koz'modem'yansk	3um	Middle_Volga	flowing	9,9	1941	19,5	82,33	0,18	9,49	150	20			HPP2	normal
+20	Il'inka	3um	Middle_Volga	reach	17	1918	19,14	94,41	0,17	4,22	200	30			HPP2	normal
+21	Priplotinnyj_uchastok_26_m_gl.	3um	Middle_Volga	reach	26,5	1879	18,74	95,61	0,17	3,42	220	30			HPP2	b_HPP
+22	Nizhe_Novocheboksarska	3um	Middle_Volga	reach	8	1868	19,1	95,29	0,17	4,54	220	35	After the hydropower plant	Cheboksary Hydroelectric Station	HPP3	HPP
+23	Nizhe_Zvenigovo	3um	Middle_Volga	flowing	9,2	1828	19,08	106,77	0,17	5,22	220	30			HPP3	normal
+24	Nizhe_Sviyazhska	3um	Middle_Volga	flowing	16	1771	18,9	99,47	0,17	2,97	240	30			HPP3	normal
+25	Razrez_Kazan'_–_PB_Volgi	3um	Middle_Volga	flowing	14,5	1755	18,46	98,14	0,17	4,11	230	30			HPP3	normal
+26	Nizhe_g._Kazan'	3um	Middle_Volga	flowing	16	1739	18,65	94,33	0,19	4,37	200	35			HPP3	normal
+27	Shelanga	3um	Middle_Volga	flowing	13	1721	18,89	96,3	0,17	3,29	210	30			HPP3	normal
+28	Kamskoe_ust'e	3um	Middle_Volga	reach	16,5	1681	18,68	97,2	0,17	4,85	200	35			HPP3	normal
+29	r._Kama_protiv_Atabaevo,_razrez	3um	Middle_Volga	reach	12	1661	18,49	97,77	0,14	9,34	150	40			HPP3	normal
+30	R._Kama_protiv_Laishevo	3um	Middle_Volga	reach	13	1633	18,37	98,6	0,16	16,03	110	40			HPP3	normal
+31	Balahchino	3um	Middle_Volga	reach	18	1609	18,42	93,75	0,14	11,37		40			HPP3	normal
+32	Vyshe_p._Tetyushi	3um	Lower_Volga	reach	35	1631	18,8	94,8	0,14	6,21	160	40			HPP3	normal
+33	Razrez_s._Kremenki_-_Undory	3um	Lower_Volga	reach	24	1581	18,62	96,84	0,15	5,25	185	35			HPP3	normal
+34	Seredina_razliva	3um	Lower_Volga	reach	11	1568	18,19	99,7	0,15	5,02	185	35			HPP3	normal
+35	Nizhe_Novoul'yanovska	3um	Lower_Volga	reach	16	1512	18,19	99,42	0,17	6,52	170	35			HPP3	normal
+36	Ust'e_r._Bol._CHeremshan	3um	Lower_Volga	reach	16	1476	17,39	96,05	0,17	5,59	210	30			HPP3	normal
+37	Protiv_r._B._CHeremshan	3um	Lower_Volga	reach	28	1471	17,91	95,56	0,17	13,11		35			HPP3	normal
+38	Protiv_r._Usa	3um	Lower_Volga	reach	18	1411	18,49	97,39	0,18	6,66	180	30			HPP3	normal
+39	Priplotinnyj_uchastok	3um	Lower_Volga	reach	26	1391	18,06	92,66	0,18	4,88	200	30			HPP3	b_HPP
+40	Nizhnij_b'ef_Samarskoj_GES	3um	Lower_Volga	reach	8	1384	18	93,03	0,19	3,13	280	30	After the hydropower plant	Zhiguli Hydroelectric Station	HPP4	HPP
+41	Vyshe_SHiryaevo	3um	Lower_Volga	flowing	16	1361	18,1	90,86	0,19	4,61	280	25			HPP4	normal
+42	Ermakovo	3um	Lower_Volga	flowing	16	1290	18,1	93,41	0,19	3,51	280	20			HPP4	normal
+43	Vyshe_Syzrani	3um	Lower_Volga	flowing	10	1216	17,9	97,33	0,19	5,23	240	30			HPP4	normal
+44	Razliv_u_p._Privolzh'e	3um	Lower_Volga	reach	22,9	1171	17,7	94,5	0,19	4,25	280	25			HPP4	normal
+45	razrez_Hvalynsk_-_Duhovnickoe	3um	Lower_Volga	reach	18,9	1121	17,29	97,03	0,2	3,91	280	30			HPP4	normal
+46	Volga_u_Duhovnickogo	3um	Lower_Volga	reach	19,5	1121	16,89	98,76	0,2	4,42	270	30			HPP4	normal
+47	Volga_protiv_Mal._Irgiza	3um	Lower_Volga	reach	21	1086	17,84	95,98	0,2	6,16	240	25			HPP4	normal
+48	Balakovo-1_razrez	3um	Lower_Volga	reach	9,8	1066	17,9	100,66	0,21	3,99	230	30			HPP4	normal
+49	Balakovo-2_(SHirokij	3um	Lower_Volga	reach	18,8	1066	18,09	97,28	0,2	4,82	260	25			HPP4	b_HPP
+50	n/b_Sarat._GES	3um	Lower_Volga	flowing	11	1046	17,93	99,72	0,21	3,59	280	30	After the hydropower plant	Saratov Hydroelectric Station	HPP5	HPP
+51	Nizhe_Vol'ska	3um	Lower_Volga	flowing	16	1020	18	94,9	0,21	4,85	240	30			HPP5	normal
+52	Nizhe_Marksa	3um	Lower_Volga	reach	6	961	18,3	102,16	0,21	5,4	240	25			HPP5	normal
+53	Vyshe_Saratova	3um	Lower_Volga	reach	16	911	18,59	93,92	0,21	4,73	240	30			HPP5	normal
+54	Razrez_Rovnoe_-_Zolotoe	3um	Lower_Volga	reach	18	796	18,88	96,89	0,21	4,6	240	30			HPP5	normal
+55	LB_Volgi_u_Rovnogo	3um	Lower_Volga	reach	9	796	19,15	98,12	0,21	5,3	290	25			HPP5	normal
+56	Volga_protiv_r._Eruslan_(Nizhnyaya_Dobrinka)	3um	Lower_Volga	reach	23	721	19,19	96,95	0,21	5,67	210	30			HPP5	normal
+57	Kamyshin	3um	Lower_Volga	reach	27,4	686	19,85	96,86	0,21	4,19	230	30			HPP5	normal
+58	Razrez_Gornyj_Balyklej	3um	Lower_Volga	reach	27,8	616	20,33	98,96	0,21	4,3	230	30			HPP5	normal
+59	Zaliv_Gornyj_Balyklej_(s_lodki)	3um	Lower_Volga	reach	11	616	20,65	102,28	0,21	5,66	250	25			HPP5	normal
+60	v/b_Volzhskoj_GES_(Volzhskij)	3um	Lower_Volga	reach	27,1	541	20,4	92,4	0,21	4,07	280	20			HPP5	b_HPP
+61	Volgograd,_n/b_Volg._GES	3um	Lower_Volga	reach	11	524	20,7	90,55	0,21	3,83	250	20	After the hydropower plant	Volga Hydroelectric Station	HPP6	HPP
+62	Rajgorod	3um	Lower_Volga	reach	9,2	455	20,4	85,83	0,21	5,6	230	30			HPP6	normal
+63	Chernyj_yar	3um	Lower_Volga	reach	4	319	20,9	86,4	0,21	10,9	130	25			HPP6	normal
+64	Vetlyanka	3um	Lower_Volga	reach	6	236	20,69	93,44	0,21	16,32	110	20			HPP6	normal
+65	Seroglazka	3um	Lower_Volga	reach	7	125	20,89	87,46	0,21	21,8	100	30			HPP6	normal
+66	Zam'yany	3um	Lower_Volga	reach	7	97	20,78	92,25	0,21	28,6	90	25			HPP6	normal
+67	Vernelebyazh'e_(Al'pijskaya_derevnya)	3um	Lower_Volga	reach	9	80	20,8	89,28	0,22	29,17	110	20			HPP6	normal
+68	Astrahan'_Rukav_Krivaya_Bolda	3um	Lower_Volga	reach	2	22	20,8	85,03	0,21	16,4	85	30			HPP6	normal
+69	Nizhe_Astrahani_(zolotoj_zaton)	3um	Lower_Volga	reach	6	12	20,8	84,19	0,22	29,3	75	25			HPP6	normal
+70	Kamenniki	0.2um	Upper_Volga	flowing	18	2645	16,28	93,38	0,11						HPP0	b_HPP
+71	Rybinsk_(Kopaevo)	0.2um	Upper_Volga	flowing	5	2623	17,5	105,62	0,1	6,07	160	50	After the hydropower plant	Rybinsk Hydroelectric Station	HPP1	HPP
+72	Nizhe_g._Tutaev_ili_vyshe_g._YAroslavl'_(Tolga)	0.2um	Upper_Volga	flowing	7	2549	17,5	94,55	0,1	8		50			HPP1	normal
+73	Nizhe_g._YAroslavl'_(Tunoshna)	0.2um	Upper_Volga	flowing	6,5	2524	17,6	87,48	0,12	6,98	150	50			HPP1	normal
+74	Krasnyj_Profintern	0.2um	Upper_Volga	flowing	7,5	2494	17,57	91,7	0,12	5,18	180	50			HPP1	normal
+75	Nizhe_g._Kostroma	0.2um	Upper_Volga	flowing	6,5	2449	18,33	100,15	0,12	6,38	170	45			HPP1	normal
+76	Volgorechensk	0.2um	Upper_Volga	flowing	14,5	2422	17,98	95,07	0,12	4,88	160	45			HPP1	normal
+77	Nizhe_g._Ples	0.2um	Upper_Volga	flowing	11,8	2400	18,13	99,7	0,12	5,68	160	45			HPP1	normal
+78	Nizhe_g._Kineshma	0.2um	Upper_Volga	flowing	15,5	2349	17,47	95,89	0,11	6,85		40			HPP1	normal
+79	Centr_razliva	0.2um	Upper_Volga	reach	11,7	2281	18,09	96,42	0,1	10,52	110	65			HPP1	normal
+80	Puchezh	0.2um	Upper_Volga	reach	18,9	2249	17,29	88,12	0,11	7,46	160	45			HPP1	normal
+81	Chkalovsk_razrez	0.2um	Upper_Volga	reach	19,5	2225	17,03	85,75	0,11	5,83	170	45			HPP1	b_HPP
+82	Gorodec	0.2um	Upper_Volga	flowing	5,4	2205	18,5	105,26	0,11	6,2	180	40	After the hydropower plant	Nizhny Novgorod Hydroelectric Station	HPP2	HPP
+83	Nizhe_Kstovo	0.2um	Middle_Volga	flowing	10	2128	19,53	116,34	0,16	10,18	100	30			HPP2	normal
+84	Makar'ev_(levyj_bereg)	0.2um	Middle_Volga	flowing	14	2065	19,91	117,77	0,16	11,96					HPP2	normal
+85	Razrez_LB_Volgi_–_r._Sura	0.2um	Middle_Volga	flowing	2	1991	20,8	91,06	0,34	11,8	90	20			HPP2	normal
+86	Vasil'sursk	0.2um	Middle_Volga	flowing	9,8	2024	19,9	82,15	0,19	10,39	130	35			HPP2	normal
+87	U_Vetlugi	0.2um	Middle_Volga	flowing	8	1957	19,3	81,36	0,18	8,85	130	35			HPP2	normal
+88	Koz'modem'yansk	0.2um	Middle_Volga	flowing	9,9	1941	19,5	82,33	0,18	9,49	150	20			HPP2	normal
+89	Il'inka	0.2um	Middle_Volga	reach	17	1918	19,14	94,41	0,17	4,22	200	30			HPP2	normal
+90	Priplotinnyj_uchastok_26_m_gl.	0.2um	Middle_Volga	reach	26,5	1879	18,74	95,61	0,17	3,42	220	30			HPP2	b_HPP
+91	Nizhe_Novocheboksarska	0.2um	Middle_Volga	reach	8	1868	19,1	95,29	0,17	4,54	220	35	After the hydropower plant	Cheboksary Hydroelectric Station	HPP3	HPP
+92	Nizhe_Zvenigovo	0.2um	Middle_Volga	flowing	9,2	1828	19,08	106,77	0,17	5,22	220	30			HPP3	normal
+93	Nizhe_Sviyazhska	0.2um	Middle_Volga	flowing	16	1771	18,9	99,47	0,17	2,97	240	30			HPP3	normal
+94	Razrez_Kazan'_–_PB_Volgi	0.2um	Middle_Volga	flowing	14,5	1755	18,46	98,14	0,17	4,11	230	30			HPP3	normal
+95	Nizhe_g._Kazan'	0.2um	Middle_Volga	flowing	16	1739	18,65	94,33	0,19	4,37	200	35			HPP3	normal
+96	Shelanga	0.2um	Middle_Volga	flowing	13	1721	18,89	96,3	0,17	3,29	210	30			HPP3	normal
+97	Kamskoe_ust'e	0.2um	Middle_Volga	reach	16,5	1681	18,68	97,2	0,17	4,85	200	35			HPP3	normal
+98	r._Kama_protiv_Atabaevo,_razrez	0.2um	Middle_Volga	reach	12	1661	18,49	97,77	0,14	9,34	150	40			HPP3	normal
+99	R._Kama_protiv_Laishevo	0.2um	Middle_Volga	reach	13	1633	18,37	98,6	0,16	16,03	110	40			HPP3	normal
+100	Balahchino	0.2um	Middle_Volga	reach	18	1609	18,42	93,75	0,14	11,37		40			HPP3	normal
+101	Vyshe_p._Tetyushi	0.2um	Lower_Volga	reach	35	1631	18,8	94,8	0,14	6,21	160	40			HPP3	normal
+102	Razrez_s._Kremenki_-_Undory	0.2um	Lower_Volga	reach	24	1581	18,62	96,84	0,15	5,25	185	35			HPP3	normal
+103	Seredina_razliva	0.2um	Lower_Volga	reach	11	1568	18,19	99,7	0,15	5,02	185	35			HPP3	normal
+104	Nizhe_Novoul'yanovska	0.2um	Lower_Volga	reach	16	1512	18,19	99,42	0,17	6,52	170	35			HPP3	normal
+105	Ust'e_r._Bol._CHeremshan	0.2um	Lower_Volga	reach	16	1476	17,39	96,05	0,17	5,59	210	30			HPP3	normal
+106	Protiv_r._B._CHeremshan	0.2um	Lower_Volga	reach	28	1471	17,91	95,56	0,17	13,11		35			HPP3	normal
+107	Protiv_r._Usa	0.2um	Lower_Volga	reach	18	1411	18,49	97,39	0,18	6,66	180	30			HPP3	normal
+108	Priplotinnyj_uchastok	0.2um	Lower_Volga	reach	26	1391	18,06	92,66	0,18	4,88	200	30			HPP3	b_HPP
+109	Nizhnij_b'ef_Samarskoj_GES	0.2um	Lower_Volga	reach	8	1384	18	93,03	0,19	3,13	280	30	After the hydropower plant	Zhiguli Hydroelectric Station	HPP4	HPP
+110	Vyshe_SHiryaevo	0.2um	Lower_Volga	flowing	16	1361	18,1	90,86	0,19	4,61	280	25			HPP4	normal
+111	Ermakovo	0.2um	Lower_Volga	flowing	16	1290	18,1	93,41	0,19	3,51	280	20			HPP4	normal
+112	Vyshe_Syzrani	0.2um	Lower_Volga	flowing	10	1216	17,9	97,33	0,19	5,23	240	30			HPP4	normal
+113	Razliv_u_p._Privolzh'e	0.2um	Lower_Volga	reach	22,9	1171	17,7	94,5	0,19	4,25	280	25			HPP4	normal
+114	razrez_Hvalynsk_-_Duhovnickoe	0.2um	Lower_Volga	reach	18,9	1121	17,29	97,03	0,2	3,91	280	30			HPP4	normal
+115	Volga_u_Duhovnickogo	0.2um	Lower_Volga	reach	19,5	1121	16,89	98,76	0,2	4,42	270	30			HPP4	normal
+116	Volga_protiv_Mal._Irgiza	0.2um	Lower_Volga	reach	21	1086	17,84	95,98	0,2	6,16	240	25			HPP4	normal
+117	Balakovo-1_razrez	0.2um	Lower_Volga	reach	9,8	1066	17,9	100,66	0,21	3,99	230	30			HPP4	normal
+118	Balakovo-2_(SHirokij	0.2um	Lower_Volga	reach	18,8	1066	18,09	97,28	0,2	4,82	260	25			HPP4	b_HPP
+119	n/b_Sarat._GES	0.2um	Lower_Volga	flowing	11	1046	17,93	99,72	0,21	3,59	280	30	After the hydropower plant	Saratov Hydroelectric Station	HPP5	HPP
+120	Nizhe_Vol'ska	0.2um	Lower_Volga	flowing	16	1020	18	94,9	0,21	4,85	240	30			HPP5	normal
+121	Nizhe_Marksa	0.2um	Lower_Volga	reach	6	961	18,3	102,16	0,21	5,4	240	25			HPP5	normal
+122	Vyshe_Saratova	0.2um	Lower_Volga	reach	16	911	18,59	93,92	0,21	4,73	240	30			HPP5	normal
+123	Razrez_Rovnoe_-_Zolotoe	0.2um	Lower_Volga	reach	18	796	18,88	96,89	0,21	4,6	240	30			HPP5	normal
+124	LB_Volgi_u_Rovnogo	0.2um	Lower_Volga	reach	9	796	19,15	98,12	0,21	5,3	290	25			HPP5	normal
+125	Volga_protiv_r._Eruslan_(Nizhnyaya_Dobrinka)	0.2um	Lower_Volga	reach	23	721	19,19	96,95	0,21	5,67	210	30			HPP5	normal
+126	Kamyshin	0.2um	Lower_Volga	reach	27,4	686	19,85	96,86	0,21	4,19	230	30			HPP5	normal
+127	Razrez_Gornyj_Balyklej	0.2um	Lower_Volga	reach	27,8	616	20,33	98,96	0,21	4,3	230	30			HPP5	normal
+128	Zaliv_Gornyj_Balyklej_(s_lodki)	0.2um	Lower_Volga	reach	11	616	20,65	102,28	0,21	5,66	250	25			HPP5	normal
+129	v/b_Volzhskoj_GES_(Volzhskij)	0.2um	Lower_Volga	reach	27,1	541	20,4	92,4	0,21	4,07	280	20			HPP5	b_HPP
+130	Volgograd,_n/b_Volg._GES	0.2um	Lower_Volga	reach	11	524	20,7	90,55	0,21	3,83	250	20	After the hydropower plant	Volga Hydroelectric Station	HPP6	HPP
+131	Rajgorod	0.2um	Lower_Volga	reach	9,2	455	20,4	85,83	0,21	5,6	230	30			HPP6	normal
+132	Chernyj_yar	0.2um	Lower_Volga	reach	4	319	20,9	86,4	0,21	10,9	130	25			HPP6	normal
+133	Vetlyanka	0.2um	Lower_Volga	reach	6	236	20,69	93,44	0,21	16,32	110	20			HPP6	normal
+134	Seroglazka	0.2um	Lower_Volga	reach	7	125	20,89	87,46	0,21	21,8	100	30			HPP6	normal
+135	Zam'yany	0.2um	Lower_Volga	reach	7	97	20,78	92,25	0,21	28,6	90	25			HPP6	normal
+136	Vernelebyazh'e_(Al'pijskaya_derevnya)	0.2um	Lower_Volga	reach	9	80	20,8	89,28	0,22	29,17	110	20			HPP6	normal
+137	Astrahan'_Rukav_Krivaya_Bolda	0.2um	Lower_Volga	reach	2	22	20,8	85,03	0,21	16,4	85	30			HPP6	normal
+138	Nizhe_Astrahani_(zolotoj_zaton)	0.2um	Lower_Volga	reach	6	12	20,8	84,19	0,22	29,3	75	25			HPP6	normal
+139	test_m	minus	control	control												
+140	test_p	plus	control	control												
