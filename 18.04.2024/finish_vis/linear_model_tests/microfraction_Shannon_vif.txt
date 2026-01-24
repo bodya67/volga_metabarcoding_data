@@ -1,0 +1,3 @@
+           L           DO Transparancy 
+    1.103698     1.151829     1.150458 
+[1] FALSE

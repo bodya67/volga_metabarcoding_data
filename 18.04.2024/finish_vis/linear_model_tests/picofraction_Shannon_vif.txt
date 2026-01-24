@@ -1,0 +1,3 @@
+           L Transparancy 
+    1.034793     1.034793 
+[1] FALSE

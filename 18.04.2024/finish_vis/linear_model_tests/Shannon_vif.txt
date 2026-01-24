@@ -1,0 +1,3 @@
+     Fraction_size Riverine_vs_Lentic                  L       Transparancy 
+          1.000000           1.514445           1.562746           1.039429 
+[1] FALSE
