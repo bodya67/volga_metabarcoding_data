@@ -1,0 +1,8 @@
+Permutation test for rda under reduced model
+Permutation: free
+Number of permutations: 999
+
+Model: rda(X = comm_hel, Y = env, Z = mem_sel)
+         Df Variance     F Pr(>F)
+Model     7 0.021752 0.954  0.571
+Residual 92 0.299668     
